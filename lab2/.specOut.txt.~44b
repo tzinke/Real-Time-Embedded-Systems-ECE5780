@@ -1,0 +1,355 @@
+***Start of RMA Schedule***
+
+Time 0
+	Executing task 1
+	Completed task 1
+Time 1
+	Executing task 2
+Time 2
+	Executing task 2
+Time 3
+	Executing task 2
+	Completed task 2
+Time 4
+	Executing task 3
+Time 5
+	Executing task 3
+Time 6
+	Executing task 3
+	Completed task 3
+Time 7
+	Executing task 4
+Time 8
+	Executing task 1
+	Task 1 preempted task 4
+	Completed task 1
+Time 9
+	Executing task 4
+Time 10
+	Executing task 4
+Time 11
+	Executing task 4
+Time 12
+	Executing task 2
+	Task 2 preempted task 4
+Time 13
+	Executing task 2
+Time 14
+	Executing task 2
+	Completed task 2
+Time 15
+	Executing task 4
+	Completed task 4
+Time 16
+	Executing task 1
+	Completed task 1
+Time 17
+Time 18
+	Executing task 3
+Time 19
+	Executing task 3
+Time 20
+	Executing task 3
+	Completed task 3
+Time 21
+Time 22
+Time 23
+Time 24
+	Executing task 1
+	Completed task 1
+Time 25
+	Executing task 2
+Time 26
+	Executing task 2
+Time 27
+	Executing task 2
+	Completed task 2
+Time 28
+	Executing task 4
+Time 29
+	Executing task 4
+Time 30
+	Executing task 4
+Time 31
+	Executing task 4
+Time 32
+	Executing task 1
+	Task 1 preempted task 4
+	Completed task 1
+Time 33
+	Executing task 4
+	Completed task 4
+Time 34
+Time 35
+Time 36
+	Executing task 2
+Time 37
+	Executing task 2
+Time 38
+	Executing task 2
+	Completed task 2
+Time 39
+	Executing task 3
+Time 40
+	Executing task 1
+	Task 1 preempted task 3
+	Completed task 1
+Time 41
+	Executing task 3
+Time 42
+	Executing task 3
+	Completed task 3
+Time 43
+Time 44
+Time 45
+Time 46
+Time 47
+Time 48
+	Executing task 1
+	Completed task 1
+Time 49
+	Executing task 2
+Time 50
+	Executing task 2
+Time 51
+	Executing task 2
+	Completed task 2
+Time 52
+	Executing task 4
+Time 53
+	Executing task 4
+Time 54
+	Executing task 3
+	Task 3 preempted task 4
+Time 55
+	Executing task 3
+Time 56
+	Executing task 1
+	Task 1 preempted task 3
+	Completed task 1
+Time 57
+	Executing task 3
+	Completed task 3
+Time 58
+	Executing task 4
+Time 59
+	Executing task 4
+Time 60
+	Executing task 2
+	Task 2 preempted task 4
+Time 61
+	Executing task 2
+Time 62
+	Executing task 2
+	Completed task 2
+Time 63
+	Executing task 4
+	Completed task 4
+Time 64
+	Executing task 1
+	Completed task 1
+Time 65
+Time 66
+Time 67
+Time 68
+Time 69
+Time 70
+Time 71
+
+Number of Preemptions
+Task	1	0
+Task	2	0
+Task	3	2
+Task	4	5
+Total		7
+
+Number of Missed Deadlines
+Task	1	0
+Task	2	0
+Task	3	0
+Task	4	0
+Total		0
+
+Utilization:	0.75
+
+
+***End of RMA Schedule***
+
+***Start of EDF Schedule***
+
+Time 0
+	Executing task 1
+	Completed task 1
+Time 1
+	Executing task 2
+Time 2
+	Executing task 2
+Time 3
+	Executing task 2
+	Completed task 2
+Time 4
+	Executing task 3
+Time 5
+	Executing task 3
+Time 6
+	Executing task 3
+	Completed task 3
+Time 7
+	Executing task 4
+Time 8
+	Executing task 1
+	Task 1 preempted task 2
+	Completed task 1
+Time 9
+	Executing task 4
+Time 10
+	Executing task 4
+Time 11
+	Executing task 4
+Time 12
+	Executing task 4
+	Task 4 preempted task 1
+	Completed task 4
+Time 13
+	Executing task 2
+Time 14
+	Executing task 2
+	Task 2 preempted task 1
+Time 15
+	Executing task 2
+	Completed task 2
+Time 16
+	Executing task 1
+	Completed task 1
+Time 17
+Time 18
+	Executing task 3
+Time 19
+	Executing task 3
+Time 20
+	Executing task 3
+	Completed task 3
+Time 21
+Time 22
+Time 23
+Time 24
+	Executing task 1
+	Completed task 1
+Time 25
+	Executing task 2
+Time 26
+	Executing task 2
+Time 27
+	Executing task 2
+	Completed task 2
+Time 28
+	Executing task 4
+Time 29
+	Executing task 4
+	Task 4 preempted task 2
+Time 30
+	Executing task 4
+Time 31
+	Executing task 4
+Time 32
+	Executing task 1
+	Task 1 preempted task 2
+	Completed task 1
+Time 33
+	Executing task 4
+	Completed task 4
+Time 34
+Time 35
+Time 36
+	Executing task 2
+Time 37
+	Executing task 2
+Time 38
+	Executing task 2
+	Completed task 2
+Time 39
+	Executing task 3
+Time 40
+	Executing task 1
+	Task 1 preempted task 3
+	Completed task 1
+Time 41
+	Executing task 3
+Time 42
+	Executing task 3
+	Completed task 3
+Time 43
+Time 44
+Time 45
+Time 46
+Time 47
+Time 48
+	Executing task 1
+	Completed task 1
+Time 49
+	Executing task 2
+Time 50
+	Executing task 2
+Time 51
+	Executing task 2
+	Completed task 2
+Time 52
+	Executing task 4
+Time 53
+	Executing task 4
+Time 54
+	Executing task 3
+	Task 3 preempted task 4
+Time 55
+	Executing task 4
+	Task 4 preempted task 2
+Time 56
+	Executing task 1
+	Task 1 preempted task 4
+	Completed task 1
+Time 57
+	Executing task 3
+Time 58
+	Executing task 4
+Time 59
+	Executing task 3
+	Completed task 3
+Time 60
+	Executing task 4
+	Completed task 4
+Time 61
+	Executing task 2
+Time 62
+	Executing task 2
+	Task 2 preempted task 1
+Time 63
+	Executing task 2
+	Completed task 2
+Time 64
+	Executing task 1
+	Completed task 1
+Time 65
+Time 66
+Time 67
+Time 68
+Time 69
+Time 70
+Time 71
+
+Number of Preemptions
+Task	1	3
+Task	2	4
+Task	3	1
+Task	4	2
+Total		10
+
+Number of Missed Deadlines
+Task	1	0
+Task	2	0
+Task	3	0
+Task	4	0
+Total		0
+
+Utilization:	0.75
+
+***End of EDF Schedule***

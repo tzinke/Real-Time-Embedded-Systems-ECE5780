@@ -1,0 +1,121 @@
+V "GNAT Lib v4.9"
+M P W=b
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_LOOPS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV SPARK_05
+
+U part1%b		part1_skeleton.adb	4d6f3816 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.fixed_io%s
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+Z ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.arith_64%s	s-arit64.adb		s-arit64.ali
+W system.exn_lli%s	s-exnlli.adb		s-exnlli.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20120515092648 d86d6c8c
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-tifiio.ads		20090409150019 6ed4936c
+D a-tifiio.adb		20121001094122 60891011
+D a-tiflau.ads		20090409150019 c0393f21
+D a-tigeau.ads		20090409150019 9eaed207
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D part1_skeleton.adb	20190221162852 e8b98787
+D system.ads		20160213141829 90249111
+D s-arit64.ads		20130103110520 404da5f2
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-exnlli.ads		20090409150019 81977baf
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-imgrea.ads		20090409150019 c7a851e2
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+D text_io.ads		20070406091342 45d626c9
+X 1 ada.ads
+16K9*Ada 19e8 16|2r6 3r6 8r6 9r6 67r15 67r36 73r18 73r39 78r19 78r40 82r20
+. 82r41 90r20 90r41 97r21 97r42 104r20 104r41
+X 2 a-calend.ads
+36K13*Calendar 375e17 16|8w10 9r10 67r19 67r40 73r22 73r43 78r23 78r44 82r24
+. 82r45 90r24 90r45 97r25 97r46 104r24 104r45
+38I9*Time<200I9>
+50O12*Day_Duration{duration}
+52V13*Clock{38I9} 16|67s49 73s52 78s53 82s54 90s54 97s55 104s54
+61V13*Seconds{50O12} 16|67s28 73s31 78s32 82s33 90s33 97s34 104s33
+200I9 Time_Rep<long_integer>
+X 8 a-textio.ads
+49K13*Text_IO 471e16 16|2w10 3r10
+263U14*Put_Line 16|27s7 28s7 31s7 32s7 41s9 42s9 45s9 46s9 55s9 56s9 59s9
+. 60s9
+X 9 a-tifiio.ads
+45k21*Fixed_IO 88e25 16|15r30
+67U14 Put 16|29s11[15] 33s11[15] 43s13[15] 47s13[15] 57s13[15] 61s13[15]
+X 14 interfac.ads
+54I9*Integer_64<long_integer>
+X 16 part1_skeleton.adb
+11U11*Part1 11b11 111l5 111t10
+13o3 vTime{duration} 66m5 77m7 77r16 80r22 86r22 88r22 93r22 102r22 107r22
+13o10 F1_Start{duration} 78m7 83r30 86r40 88r41 93r41 98r30 102r42 107r42
+13o20 F1_Curr{duration} 82m9 83r20 86r62 88r31 91r29 93r31 93r64
+13o29 F2_Curr{duration} 90m9 91r19 93r85
+13o38 F3_Start{duration} 97m9 98r19 102r31 105r29 107r31 107r64
+13o48 F3_Curr{duration} 104m9 105r19 107r86
+13o57 Before{duration} 67m5 74r27 77r33 109m7 109r17
+13o65 After{duration} 73m9 74r19 77r25
+15K11 DIO[9|45] 29r7 33r7 43r9 47r9 57r9 61r9
+24U13 F1 24b13 24>16 24>36 24>55 35l7 35t9 80s7 86s7
+24o16 Currtime{duration} 29r15 33r15 80r10 86r10
+24o36 StartF1{duration} 26r8 33r38 80r29 86r29
+24o55 FinishF1{duration} 26r31 33r27 80r45 86r50
+38U13 F2 38b13 38>16 38>36 38>56 49l7 49t9 88s7 93s7
+38o16 Currtime{duration} 43r17 47r17 88r10 93r10
+38o36 FinishF1{duration} 40r8 47r40 88r52 93r52
+38o56 FinishF2{duration} 40r32 47r29 88r69 93r73
+52U13 F3 52b13 52>16 52>36 52>55 63l7 63t9 102s7 107s7
+52o16 Currtime{duration} 57r17 61r17 102r10 107r10
+52o36 StartF1{duration} 54r8 61r40 102r53 107r53
+52o55 FinishF3{duration} 54r31 61r29 102r69 107r74
+X 18 s-arit64.ads
+44I12*Int64{14|54I9}
+54V13*Multiply_With_Ovflo_Check{44I12} 55i<c,__gnat_mulv64>22
+X 37 text_io.ads
+24K9*Text_IO=24:29 16|5w6 6r6 15r22
+
